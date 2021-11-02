@@ -31,7 +31,9 @@
 .mobile-mu {
   color: black;
 }
-
+.login-box {
+  width: 450px;
+}
 .login-card {
   padding-top: 5rem;
   padding-bottom: 3rem;

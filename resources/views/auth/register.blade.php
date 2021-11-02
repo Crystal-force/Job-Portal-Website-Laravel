@@ -1,54 +1,62 @@
 @extends('layout.index')
 @section('content')
-    
-    <section id="wrapper">
-      <div class="login-register">
-          <div class="login-box card">
-              <div class="card-body">
-                  <form class="form-horizontal form-material" id="loginform" action="index.html">
-                      <h3 class="text-center m-b-20">Sign Up</h3>
-                      <div class="form-group">
-                          <div class="col-xs-12">
-                              <input class="form-control" type="text" required="" placeholder="Name">
-                          </div>
-                      </div>
-                      <div class="form-group ">
-                          <div class="col-xs-12">
-                              <input class="form-control" type="text" required="" placeholder="Email">
-                          </div>
-                      </div>
-                      <div class="form-group ">
-                          <div class="col-xs-12">
-                              <input class="form-control" type="password" required="" placeholder="Password">
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          <div class="col-xs-12">
-                              <input class="form-control" type="password" required="" placeholder="Confirm Password">
-                          </div>
-                      </div>
-                      <div class="form-group row">
-                          <div class="col-md-12">
-                              <div class="custom-control custom-checkbox">
-                                  <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                  <label class="custom-control-label" for="customCheck1">I agree to all <a href="javascript:void(0)">Terms</a></label> 
-                              </div> 
-                          </div>
-                      </div>
-                      <div class="form-group text-center p-b-20">
-                          <div class="col-xs-12">
-                              <button class="btn btn-info btn-lg btn-block btn-rounded text-uppercase waves-effect waves-light" type="submit">Sign Up</button>
-                          </div>
-                      </div>
-                      <div class="form-group m-b-0">
-                          <div class="col-sm-12 text-center">
-                              Already have an account? <a href="pages-login.html" class="text-info m-l-5"><b>Sign In</b></a>
-                          </div>
-                      </div>
-                  </form>
-              </div>
-          </div>
-      </div>
-    </section>
+<div id="main-wrapper">
+    @include('common.login-header')
 
+    <div class="page-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="login-register">
+                    <h3 class="text-center m-b-20 font-primary">Register User</h3>
+                    <div class="login-box card">
+                        <div class="card-body">
+                            <form class="form-horizontal form-material" id="loginform" action="index.html">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <input class="form-control input-placeholder" type="text" required="" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <div class="col-xs-12">
+                                        <input class="form-control input-placeholder" type="text" required="" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <div class="col-xs-12">
+                                        <input class="form-control input-placeholder" type="password" required="" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <input class="form-control input-placeholder" type="password" required="" placeholder="Confirm Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <input class="form-control input-placeholder" type="text" required="" placeholder="Mobile number">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <input class="form-control input-placeholder" type="text" required="" placeholder="Enter zipcode to select your address">
+                                    </div>
+                                </div>
+                                <div class="form-group text-center ">
+                                    <div class="col-xs-12">
+                                        <button class="btn btn-block btn-lg button-primary" type="submit">Register</button>
+                                    </div>
+                                </div>
+                                <div class="form-group m-b-0">
+                                    <div class="col-sm-12 text-center font-primary">
+                                        Already have an account? <a href="{{route('login')}}" class="text-info m-l-5 font-primary"><b>Login</b></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

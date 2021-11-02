@@ -7,10 +7,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="login-register">
+                    <h3 class="text-center m-b-20 font-primary">Login</h3>
                     <div class="login-box card">
                         <div class="card-body">
-                            <form class="form-horizontal form-material" id="loginform" action="index.html">
-                                <h3 class="text-center m-b-20 font-primary">Log In</h3>
+                            <form class="form-horizontal form-material mt-4" id="loginform" action="index.html">
+                                
                                 <div class="form-group ">
                                     <div class="col-xs-12">
                                         <input class="form-control input-placeholder" type="text" required="" placeholder="Username"> </div>
@@ -21,7 +22,7 @@
                                 </div>
                                 
                                 <div class="form-group text-center">
-                                    <div class="col-xs-12 p-b-20">
+                                    <div class="col-xs-12">
                                         <button class="btn btn-block btn-lg button-primary" type="submit">Log In</button>
                                     </div>
                                 </div>
@@ -34,9 +35,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group m-b-0">
+                                <div class="form-group m-b-4">
                                     <div class="col-sm-12 text-center font-primary">
-                                        Don't have an account? <a href="pages-register.html" class="text-info m-l-5 font-primary"><b>Sign Up</b></a>
+                                        Don't have an account? <a href="{{route('register')}}" class="text-info m-l-5 font-primary"><b>Register</b></a>
                                     </div>
                                 </div>
                             </form>
