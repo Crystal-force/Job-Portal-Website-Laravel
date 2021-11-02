@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'Auth\LoginController@index')->name('login');
+Route::get('/register', 'Auth\RegisterController@index')->name('register');

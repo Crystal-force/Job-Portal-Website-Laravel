@@ -1,0 +1,69 @@
+
+.font-primary {
+  color: #A54685 !important
+}
+
+.button-primary {
+  background-color: #A54685;
+  border:unset;
+  color:white
+}
+::placeholder {
+  text-align: center;
+  color: #A54685 !important;
+  font-weight:500
+}
+.input-placeholder {
+  text-align: center;
+  color: #A54685 !important
+}
+.navbar-area {
+  display: flex;
+  justify-content: space-between;
+}
+.login-menu {
+  display: flex;
+  align-items: center;
+}
+.topbar {
+  display: none;
+}
+.mobile-mu {
+  color: black;
+}
+
+.login-card {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+} 
+.forgot-link {
+  color: #A54685 !important;
+  font-weight: 500;
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .topbar {
+    display: block !important;
+    background-color:#ffffff !important;
+  }
+  .login-menu {
+    display: none;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  .topbar {
+    display: block !important;
+    background-color:#ffffff !important;
+  }
+  .login-menu {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .topbar {
+    display: block !important;
+    background-color:#ffffff !important;
+  }
+  .login-menu {
+    display: none;
+  }
+}
