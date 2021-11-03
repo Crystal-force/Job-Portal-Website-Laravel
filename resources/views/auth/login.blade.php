@@ -10,7 +10,7 @@
                     <h3 class="text-center m-b-20 font-primary">Login</h3>
                     <div class="login-box card">
                         <div class="card-body">
-                            <form class="form-horizontal form-material mt-4" id="loginform" action="index.html">
+                            <form class="form-horizontal form-material mt-4" id="loginform" action="/jobs">
                                 
                                 <div class="form-group ">
                                     <div class="col-xs-12">
@@ -23,7 +23,7 @@
                                 
                                 <div class="form-group text-center">
                                     <div class="col-xs-12">
-                                        <button class="btn btn-block btn-lg button-primary" type="submit">Log In</button>
+                                        <button class="btn btn-block btn-lg button-primary" type="submit" onclick="UserLogin()">Log In</button>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -65,4 +65,10 @@
         </div>
     </div>
 </div>
+
+<script>
+    function UserLogin() {
+        window.location.href = '/jobs'
+    }
+</script>
 @endsection

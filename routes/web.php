@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Auth\LoginController@Index')->name('login');
 Route::get('/register', 'Auth\RegisterController@index')->name('register');
+
+Route::get('/jobs', 'JobsController@Index')->name('jobs');

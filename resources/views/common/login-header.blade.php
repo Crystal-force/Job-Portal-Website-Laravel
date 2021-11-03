@@ -1,4 +1,4 @@
-<header class="topbar">
+<header class="topbar mobile-header">
   <nav class="navbar top-navbar navbar-expand-md navbar-dark">
       <div class="ml-2">
           <a href="javascript:;">
