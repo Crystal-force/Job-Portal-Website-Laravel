@@ -7,7 +7,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="login-register">
-                    <h3 class="text-center m-b-20 font-primary">Register User</h3>
+                    <h3 class="text-center m-b-20 font-second login-title">Register User</h3>
                     <div class="login-box card">
                         <div class="card-body">
                             <form class="form-horizontal form-material" id="loginform" action="index.html">
@@ -47,8 +47,8 @@
                                     </div>
                                 </div>
                                 <div class="form-group m-b-0">
-                                    <div class="col-sm-12 text-center font-primary">
-                                        Already have an account? <a href="{{route('login')}}" class="text-info m-l-5 font-primary"><b>Login</b></a>
+                                    <div class="col-sm-12 text-center font-second">
+                                        Already have an account? <a href="{{route('login')}}" class="text-info m-l-5 font-second"><b>Login</b></a>
                                     </div>
                                 </div>
                             </form>

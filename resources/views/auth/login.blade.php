@@ -7,7 +7,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="login-register">
-                    <h3 class="text-center m-b-20 font-primary">Login</h3>
+                    <h3 class="text-center m-b-20 font-second login-title">Login</h3>
                     <div class="login-box card">
                         <div class="card-body">
                             <form class="form-horizontal form-material mt-4" id="loginform" action="/jobs">
@@ -36,16 +36,16 @@
                                     </div>
                                 </div>
                                 <div class="form-group m-b-4">
-                                    <div class="col-sm-12 text-center font-primary">
-                                        Don't have an account? <a href="{{route('register')}}" class="text-info m-l-5 font-primary"><b>Register</b></a>
+                                    <div class="col-sm-12 text-center font-second">
+                                        Don't have an account? <a href="{{route('register')}}" class="text-info m-l-5 font-second"><b>Register</b></a>
                                     </div>
                                 </div>
                             </form>
                             <form class="form-horizontal" id="recoverform" action="javascript:;">
                                 <div class="form-group ">
                                     <div class="col-xs-12">
-                                        <h3 class="font-primary">Recover Password</h3>
-                                        <p class="text-muted font-primary">Enter your Email and instructions will be sent to you! </p>
+                                        <h6 class="font-second">Recover Password</h6>
+                                        <p class="text-muted font-second">Enter your Email and instructions will be sent to you! </p>
                                     </div>
                                 </div>
                                 <div class="form-group ">
