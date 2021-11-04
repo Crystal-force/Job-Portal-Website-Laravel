@@ -10,7 +10,7 @@
                 <h3 class="text-themecolor job-title">application status</h3>
                 <div class="search-container">
                   <form action="javascript:;">
-                    <input class="search-input" type="text" placeholder="enter application ID..." name="search">
+                    <input class="search-input search-placeholder" type="text" placeholder="enter application ID..." name="search">
                     <button type="submit">Search</button>
                   </form>
                 </div>

@@ -5,11 +5,86 @@
   @include('common.jobs-header')
     <div class="main-body mt-2">
         <div class="container">
-            <div class="row d-flex align-item-center">
-              <div class="col-md-6 align-self-center text-right">
-                  <a href="{{route('application-status')}}">application status</a>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-6">
+                      <div class="card">
+                          <div class="card-body menu-card-one">
+                            <a href="javascript:;" class="each-menu">
+                              <div class="m-t-30 m-b-20">
+                                  <span class="display-5"><i class="far fa-file-archive"></i></span>
+                                  <h3 class="card-title ml-3">upload/View CV's</h3>
+                                </div>
+                            </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="card">
+                          <div class="card-body menu-card-two">
+                            <a href="javascript:;" class="each-menu">
+                              <div class="m-t-30 m-b-20">
+                                  <span class="display-5"><i class="fas fa-history"></i></span>
+                                  <h3 class="card-title ml-3">employment history</h3>
+                                </div>
+                            </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="card">
+                          <div class="card-body menu-card-one">
+                            <a href="{{route('application-status')}}" class="each-menu">
+                              <div class="m-t-30 m-b-20">
+                                  <span class="display-5"><i class="far fa-hand-point-left"></i></span>
+                                  <h3 class="card-title ml-3">applications status</h3>
+                                </div>
+                            </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="card">
+                          <div class="card-body menu-card-two">
+                            <a href="{{route('jobs')}}" class="each-menu">
+                              <div class="m-t-30 m-b-20">
+                                  <span class="display-5"><i class="far fa-handshake"></i></span>
+                                  <h3 class="card-title ml-3">latest Jobs</h3>
+                                  <span class="label menu-status-danger"></span>
+                                </div>
+                            </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="card">
+                          <div class="card-body menu-card-one">
+                            <a href="javascript:;" class="each-menu">
+                              <div class="m-t-30 m-b-20">
+                                  <span class="display-5"><i class="far fa-question-circle"></i></span>
+                                  <h3 class="card-title ml-3">agency support team</h3>
+                                </div>
+                            </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="card">
+                          <div class="card-body menu-card-two">
+                            <a href="javascript:;" class="each-menu">
+                              <div class="m-t-30 m-b-20">
+                                  <span class="display-5"><i class="far fa-comment-alt"></i></span>
+                                  <h3 class="card-title ml-3">messages</h3>
+                                  <span class="label label-danger menu-status-success"></span>
+                                </div>
+                            </a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-6 align-self-center">
+              <div class="col-md-6">
                   <h2 class="font-second backoffice">Backoffice</h2>
                   <div class="update-area mt-3">
                     <div class="form-group ">

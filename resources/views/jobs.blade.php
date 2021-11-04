@@ -10,7 +10,7 @@
                 <h3 class="text-themecolor job-title">latest Jobs</h3>
                 <div class="search-container">
                   <form action="javascript:;">
-                    <input class="search-input" type="text" placeholder="enter job, company name..." name="search">
+                    <input class="search-input search-placeholder" type="text" placeholder="enter job, company name..." name="search">
                     <button type="submit">Search</button>
                   </form>
                 </div>
@@ -189,7 +189,7 @@
       <div class="container mt-2 mb-2">
         <div class="row">
             <div class="back-to">
-                <h2 class="font-second back-font">Back to <span><a href="javascript:;" class="back-link">backoffice</a></span></h2>
+                <h2 class="font-second back-font">Back to <span><a href="{{route('dashboard')}}" class="back-link">backoffice</a></span></h2>
             </div>
         </div>
       </div>
