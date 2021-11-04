@@ -10,8 +10,7 @@
                     <h3 class="text-center m-b-20 font-second login-title">Login</h3>
                     <div class="login-box card">
                         <div class="card-body">
-                            <form class="form-horizontal form-material mt-4" id="loginform" action="/jobs">
-                                
+                            <form class="form-horizontal form-material mt-4" id="loginform" action="/dashboard">
                                 <div class="form-group ">
                                     <div class="col-xs-12">
                                         <input class="form-control input-placeholder" type="text" required="" placeholder="Username"> </div>
@@ -65,10 +64,4 @@
         </div>
     </div>
 </div>
-
-<script>
-    function UserLogin() {
-        window.location.href = '/jobs'
-    }
-</script>
 @endsection

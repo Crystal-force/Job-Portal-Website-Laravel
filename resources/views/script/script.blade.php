@@ -9,6 +9,8 @@
     <!--Menu sidebar -->
     <script src="dist/js/sidebarmenu.js"></script>
     <script src="dist/js/custom.min.js"></script>
+
+    <script src="dist/js/pages/jasny-bootstrap.js"></script>
     <!--Custom JavaScript -->
     <script type="text/javascript">
         $(function() {
